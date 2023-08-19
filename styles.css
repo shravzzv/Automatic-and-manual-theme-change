@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --base-text-clr: black;
+  --base-bg-clr: white;
+}
+
+:root.dark {
+  --base-text-clr: white;
+  --base-bg-clr: #212121;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: var(--base-text-clr);
+  background-color: var(--base-bg-clr);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base-text-clr: white;
+    --base-bg-clr: #212121;
+  }
+}
