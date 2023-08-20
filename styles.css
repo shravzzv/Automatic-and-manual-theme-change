@@ -14,10 +14,18 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 2em;
+  font-family: sans-serif;
   min-height: 100vh;
   color: var(--base-text-clr);
   background-color: var(--base-bg-clr);
+}
+
+button {
+  padding: 1em 1.5em;
+  border-radius: 1.5em;
+  border: none;
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: dark) {
