@@ -7,7 +7,7 @@
   --base-bg-clr: white;
 }
 
-:root.dark {
+:root.changed {
   --base-text-clr: white;
   --base-bg-clr: #212121;
 }
@@ -33,6 +33,11 @@ button {
   :root {
     --base-text-clr: white;
     --base-bg-clr: #212121;
+  }
+
+  :root.changed {
+    --base-text-clr: black;
+    --base-bg-clr: white;
   }
 
   button {

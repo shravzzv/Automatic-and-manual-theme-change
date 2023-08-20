@@ -5,7 +5,7 @@ const themeTextEl = document.querySelector('code')
 themeTextEl.innerText = 'light'
 
 const handleThemeChange = (e) => {
-  rootEl.classList.toggle('dark')
+  rootEl.classList.toggle('changed')
   themeTextEl.innerText = rootEl.classList.contains('dark') ? 'dark' : 'light'
 }
 
