@@ -5,11 +5,15 @@
 :root {
   --base-text-clr: black;
   --base-bg-clr: white;
+  --btn-text-clr: black;
+  --btn-bg-clr: white;
 }
 
 :root.changed {
   --base-text-clr: white;
   --base-bg-clr: #212121;
+  --btn-text-clr: white;
+  --btn-bg-clr: #212121;
 }
 
 body {
@@ -22,6 +26,8 @@ body {
 }
 
 button {
+  color: var(--btn-text-clr);
+  background-color: var(--btn-bg-clr);
   padding: 1em 1.5em;
   border-radius: 1.5em;
   border: none;
@@ -33,15 +39,14 @@ button {
   :root {
     --base-text-clr: white;
     --base-bg-clr: #212121;
+    --btn-text-clr: white;
+    --btn-bg-clr: #212121;
   }
 
   :root.changed {
     --base-text-clr: black;
     --base-bg-clr: white;
-  }
-
-  button {
-    color: white;
-    background-color: #212121;
+    --btn-text-clr: black;
+    --btn-bg-clr: white;
   }
 }
