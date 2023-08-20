@@ -26,11 +26,17 @@ button {
   border-radius: 1.5em;
   border: none;
   cursor: pointer;
+  box-shadow: 2px 2px 5px 1px black;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --base-text-clr: white;
     --base-bg-clr: #212121;
+  }
+
+  button {
+    color: white;
+    background-color: #212121;
   }
 }
