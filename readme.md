@@ -37,9 +37,9 @@ The app automatically adjusts its theme based on the system's color scheme prefe
 
 The project utilizes CSS variables and JavaScript to achieve theme switching functionality:
 
-1. The CSS variables (`--base-text-clr` and `--base-bg-clr`) define the colors for both light and dark themes.
+1. The CSS variables (`--base-text-clr`, `--base-bg-clr`, `--btn-text-clr` and `--btn-bg-clr`) define the colors for both light and dark themes.
 
-2. The JavaScript code toggles the theme classes (`dark` and `light`) on the root element based on the button click.
+2. The JavaScript code toggles a class `changed` on the root element based on the button click.
 
 3. The app responds to the system's color scheme preference using the `prefers-color-scheme` media query.
 
